@@ -34,7 +34,6 @@
     "validate:prettier": "prettier \"src/**/*.{js,ts,tsx}\" \"example/**/*.{js,ts,tsx}\" \"fabric-example/**/*.{js,ts,tsx}\" --check",
     "validate:jest": "jest",
     "release": "release-it",
-    "prepublish": "yarn test",
     "prepare": "bob build"
   },
   "keywords": [
